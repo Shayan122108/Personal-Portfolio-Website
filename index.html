@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shayan Fatarpekar | Portfolio</title>
+
+    <meta name="description" content="Personal portfolio website of Shayan Fatarpekar">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!---------------- HEADER ---------------->
+
+    <header>
+
+        <nav>
+
+            <h1 class="logo">Shayan Fatarpekar</h1>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-btn">Home</a></li>
+                <li><a href="#about" class="nav-btn">About</a></li>
+                <li><a href="#projects" class="nav-btn">Projects</a></li>
+                <li><a href="#contact" class="nav-btn">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!---------------- MAIN ---------------->
+
+    <main>
+
+        <!-------------- HERO -------------->
+
+        <section id="home">
+
+            <div class="hero-content">
+
+                <article>
+
+                    <p class="intro-text">
+                        Hi there! I'm
+                    </p>
+
+                    <h2>
+                        Shayan Fatarpekar
+                    </h2>
+
+                    <h3>
+                        A Computer Science Student at NITW
+                    </h3>
+
+                    <p>
+                        I enjoy building responsive websites, learning new technologies,
+                        and solving programming problems.
+                    </p>
+
+                    <a href="#projects" class="button">
+                        View Projects
+                    </a>
+
+                </article>
+
+                <figure>
+
+                    <img src="images/profile.jpg"
+                         alt="Portrait of Shayan Fatarpekar">
+
+                </figure>
+
+            </div>
+
+        </section>
+
+        <!-------------- ABOUT -------------->
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <article>
+
+                <p>
+                    I am a Computer Science student at NIT Warangal with an interest in
+                    software development, web technologies, and problem solving.
+                    I enjoy building projects that combine clean design with
+                    practical functionality.
+                </p>
+
+                <p>
+                    My current areas of interest include full-stack development,
+                    algorithms, artificial intelligence, and system design.
+                </p>
+
+            </article>
+
+            <div class="skills">
+
+                <h3>Skills</h3>
+
+                <ul>
+
+                    <li>HTML5</li>
+
+                    <li>CSS3</li>
+
+                    <li>Java</li>
+
+                    <li>C++</li>
+
+                    <li>Python</li>
+
+                    <li>Git</li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-------------- PROJECTS -------------->
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+        <article class="project-card">
+
+            <img src="images/securescholar.jpg"
+                 alt="Screenshot of the SecureScholar application">
+
+            <div class="project-content">
+                <h3>SecureScholar</h3>
+
+                <p>
+                    A secure academic document management platform featuring encrypted
+                    file storage, role-based access control, dynamic watermarking,
+                    and tamper-evident audit logging.
+                </p>
+
+                <p class="tech-stack">
+                    <strong>Tech Stack:</strong> React, Node.js, Express, SQLite
+                </p>
+            </div>
+
+        </article>
+
+        <article class="project-card">
+
+            <img src="images/scribeai.jpg"
+                 alt="Screenshot of the ScribeAI meeting transcription platform">
+
+            <div class="project-content">
+                <h3>ScribeAI</h3>
+
+                <p>
+                    An AI-powered meeting transcription platform that captures live
+                    audio, generates real-time transcripts, and produces intelligent
+                    meeting summaries.
+                </p>
+
+                <p class="tech-stack">
+                    <strong>Tech Stack:</strong> Next.js, TypeScript, Node.js, PostgreSQL
+                </p>
+            </div>
+
+        </article>
+
+        <article class="project-card">
+
+            <img src="images/mystudyloop.jpg"
+                 alt="Screenshot of the MyStudyLoop study management platform">
+
+            <div class="project-content">
+                <h3>MyStudyLoop</h3>
+
+                <p>
+                    A study resource management platform that helps students organize
+                    notes, revision material, and academic resources through a clean
+                    and intuitive interface.
+                </p>
+
+                <p class="tech-stack">
+                    <strong>Tech Stack:</strong> React, Supabase, JavaScript
+                </p>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+        <!--------------- CONTACT -------------->
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <div>
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
+
+                </div>
+
+                <div>
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+
+                </div>
+
+                <div>
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message..."
+                        required>
+                    </textarea>
+
+                </div>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!---------------- FOOTER ---------------->
+
+    <footer>
+
+        <p>
+            © 2026 Shayan Fatarpekar. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
